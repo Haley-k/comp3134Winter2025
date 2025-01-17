@@ -1,0 +1,23 @@
+1. 
+IP address	Type	Hosted by	Location
+198.96.86.176	IPv4	Hosted by The George Brown College of Applied Arts and Technology The George Brown College of Applied Arts and Technology	Canada
+
+2.
+IP address	Type	Hosted by	Location
+144.217.255.135	IPv4	Hosted by OVH SAS OVH SAS	Canada
+
+3.
+IP address	Type	Hosted by	Location
+108.139.10.71	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+108.139.10.22	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+108.139.10.118	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+108.139.10.56	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+
+4.
+IP address	Type	Hosted by	Location
+13.248.240.135	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+76.223.115.82	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+
+5.
+IP address	Type	Hosted by	Location
+140.82.116.4	IPv4	Hosted by GitHub, Inc. GitHub, Inc.	United States of America

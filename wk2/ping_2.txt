@@ -1,0 +1,8 @@
+(base) haley@Haleys-MacBook-Pro ~ % ping 138.197.151.76
+PING 138.197.151.76 (138.197.151.76): 56 data bytes
+64 bytes from 138.197.151.76: icmp_seq=0 ttl=50 time=57.972 ms
+64 bytes from 138.197.151.76: icmp_seq=1 ttl=50 time=20.704 ms
+64 bytes from 138.197.151.76: icmp_seq=2 ttl=50 time=40.777 ms
+64 bytes from 138.197.151.76: icmp_seq=3 ttl=50 time=24.141 ms
+64 bytes from 138.197.151.76: icmp_seq=4 ttl=50 time=20.754 ms
+64 bytes from 138.197.151.76: icmp_seq=5 ttl=50 time=21.131 ms
