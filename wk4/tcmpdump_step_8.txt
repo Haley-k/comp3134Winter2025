@@ -1,0 +1,30 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -n -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:27:59.875717 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 334657338:334657446, ack 2500196169, win 501, options [nop,nop,TS val 530383156 ecr 3116646737], length 108
+20:27:59.875786 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 530383156 ecr 3116646737], length 36
+20:27:59.875811 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 144:196, ack 1, win 501, options [nop,nop,TS val 530383156 ecr 3116646737], length 52
+20:27:59.875852 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 196:264, ack 1, win 501, options [nop,nop,TS val 530383156 ecr 3116646737], length 68
+20:27:59.875921 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 264:368, ack 1, win 501, options [nop,nop,TS val 530383156 ecr 3116646737], length 104
+20:27:59.883199 IP 198.96.85.21.55136 > 138.197.151.76.22: Flags [.], ack 0, win 18547, options [nop,nop,TS val 3116646747 ecr 530383152], length 0
+20:27:59.883200 IP 198.96.85.21.55136 > 138.197.151.76.22: Flags [.], ack 368, win 18542, options [nop,nop,TS val 3116646750 ecr 530383156], length 0
+20:27:59.975360 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 368:588, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 220
+20:27:59.975449 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 588:624, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 36
+20:27:59.975515 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 624:820, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 196
+20:27:59.975559 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 820:856, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 36
+20:27:59.975634 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 856:1052, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 196
+20:27:59.975665 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1052:1088, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 36
+20:27:59.975705 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1088:1284, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 196
+20:27:59.975732 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1284:1320, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 36
+20:27:59.975793 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1320:1516, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 196
+20:27:59.975834 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1516:1552, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 36
+20:27:59.975902 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1552:1740, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 188
+20:27:59.975930 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1740:1776, ack 1, win 501, options [nop,nop,TS val 530383256 ecr 3116646750], length 36
+20:27:59.975970 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1776:1964, ack 1, win 501, options [nop,nop,TS val 530383257 ecr 3116646750], length 188
+20:27:59.975997 IP 138.197.151.76.22 > 198.96.85.21.55136: Flags [P.], seq 1964:2000, ack 1, win 501, options [nop,nop,TS val 530383257 ecr 3116646750], length 36
+20:27:59.984021 IP 198.96.85.21.55136 > 138.197.151.76.22: Flags [.], ack 2000, win 18522, options [nop,nop,TS val 3116646850 ecr 530383257], length 0
+^C
+22 packets captured
+55 packets received by filter
+0 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 

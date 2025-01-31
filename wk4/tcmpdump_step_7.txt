@@ -1,0 +1,74 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+20:23:09.691763 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.55136: Flags [P.], seq 334499190:334499234, ack 2500192997, win 501, options [nop,nop,TS val 530092972 ecr 3116356550], length 44
+20:23:09.691831 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.55136: Flags [P.], seq 44:96, ack 1, win 501, options [nop,nop,TS val 530092972 ecr 3116356550], length 52
+20:23:09.691879 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.55136: Flags [P.], seq 96:164, ack 1, win 501, options [nop,nop,TS val 530092972 ecr 3116356550], length 68
+20:23:09.691923 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.55136: Flags [P.], seq 164:232, ack 1, win 501, options [nop,nop,TS val 530092972 ecr 3116356550], length 68
+20:23:09.691961 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.55136: Flags [P.], seq 232:268, ack 1, win 501, options [nop,nop,TS val 530092973 ecr 3116356550], length 36
+20:23:09.692894 IP 198.96.85.21.55136 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 0, win 18547, options [nop,nop,TS val 3116356560 ecr 530092968], length 0
+20:23:09.697037 IP 198.96.85.21.55136 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 268, win 18544, options [nop,nop,TS val 3116356565 ecr 530092973], length 0
+20:23:13.373430 IP msnbot-40-77-167-121.search.msn.com.32533 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 310243818, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:13.373498 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32533: Flags [R.], seq 0, ack 310243819, win 0, length 0
+20:23:13.907509 IP msnbot-40-77-167-121.search.msn.com.32533 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 310243818, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:13.907579 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32533: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:14.438709 IP msnbot-40-77-167-121.search.msn.com.32533 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 310243818, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:14.438780 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32533: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:14.521309 IP 206.168.34.153.23848 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.62756: Flags [S], seq 313202450, win 42340, options [mss 1460,sackOK,TS val 1738342292 ecr 0,nop,wscale 10], length 0
+20:23:14.969884 IP msnbot-40-77-167-121.search.msn.com.32533 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 310243818, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:14.969964 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32533: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:15.448291 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 1210744841, win 29200, options [mss 1460,sackOK,TS val 1410953942 ecr 0,nop,wscale 7], length 0
+20:23:15.448369 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [S.], seq 938812554, ack 1210744842, win 65160, options [mss 1460,sackOK,TS val 2858875954 ecr 1410953942,nop,wscale 7], length 0
+20:23:15.501230 IP msnbot-40-77-167-121.search.msn.com.32533 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 310243818, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:15.501310 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32533: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:15.649340 IP msnbot-40-77-167-121.search.msn.com.32543 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3259350144, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:15.649407 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32543: Flags [R.], seq 0, ack 3259350145, win 0, length 0
+20:23:15.676924 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 1410953999 ecr 2858875954], length 0
+20:23:15.676924 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:16, ack 1, win 229, options [nop,nop,TS val 1410953999 ecr 2858875954], length 15: SSH: SSH-2.0-PUTTY
+20:23:15.677008 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [.], ack 16, win 509, options [nop,nop,TS val 2858876183 ecr 1410953999], length 0
+20:23:15.688306 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [P.], seq 1:43, ack 16, win 509, options [nop,nop,TS val 2858876194 ecr 1410953999], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+20:23:15.916424 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 43, win 229, options [nop,nop,TS val 1410954059 ecr 2858876194], length 0
+20:23:15.916514 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [P.], seq 43:1155, ack 16, win 509, options [nop,nop,TS val 2858876422 ecr 1410954059], length 1112
+20:23:15.916557 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 16:872, ack 43, win 229, options [nop,nop,TS val 1410954059 ecr 2858876194], length 856
+20:23:15.959001 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [.], ack 872, win 503, options [nop,nop,TS val 2858876465 ecr 1410954059], length 0
+20:23:16.173185 IP msnbot-40-77-167-121.search.msn.com.32543 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3259350144, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:16.173263 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32543: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:16.182602 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1155, win 246, options [nop,nop,TS val 1410954126 ecr 2858876422], length 0
+20:23:16.186852 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 872:952, ack 1155, win 246, options [nop,nop,TS val 1410954127 ecr 2858876465], length 80
+20:23:16.186910 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [.], ack 952, win 503, options [nop,nop,TS val 2858876692 ecr 1410954127], length 0
+20:23:16.188265 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [P.], seq 1155:1467, ack 952, win 503, options [nop,nop,TS val 2858876694 ecr 1410954127], length 312
+20:23:16.396237 IP msnbot-40-77-167-55.search.msn.com.60358 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 809835716, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:16.396318 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-55.search.msn.com.60358: Flags [R.], seq 0, ack 809835717, win 0, length 0
+20:23:16.416310 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1467, win 263, options [nop,nop,TS val 1410954184 ecr 2858876694], length 0
+20:23:16.417467 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 952:968, ack 1467, win 263, options [nop,nop,TS val 1410954184 ecr 2858876694], length 16
+20:23:16.459017 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [.], ack 968, win 503, options [nop,nop,TS val 2858876965 ecr 1410954184], length 0
+20:23:16.686938 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 968:1032, ack 1467, win 263, options [nop,nop,TS val 1410954252 ecr 2858876965], length 64
+20:23:16.686986 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [.], ack 1032, win 503, options [nop,nop,TS val 2858877193 ecr 1410954252], length 0
+20:23:16.687126 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [P.], seq 1467:1531, ack 1032, win 503, options [nop,nop,TS val 2858877193 ecr 1410954252], length 64
+20:23:16.704428 IP msnbot-40-77-167-121.search.msn.com.32543 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3259350144, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:16.704493 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32543: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:16.915128 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1032:1112, ack 1531, win 263, options [nop,nop,TS val 1410954309 ecr 2858877193], length 80
+20:23:16.922860 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [P.], seq 1531:1611, ack 1112, win 503, options [nop,nop,TS val 2858877428 ecr 1410954309], length 80
+20:23:16.925187 IP msnbot-40-77-167-55.search.msn.com.60358 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 809835716, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:16.925264 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-55.search.msn.com.60358: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:17.150863 IP 218.92.0.156.15506 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1112:1208, ack 1611, win 263, options [nop,nop,TS val 1410954368 ecr 2858877428], length 96
+20:23:17.190989 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.156.15506: Flags [.], ack 1208, win 503, options [nop,nop,TS val 2858877697 ecr 1410954368], length 0
+20:23:17.235669 IP msnbot-40-77-167-121.search.msn.com.32543 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3259350144, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:17.235730 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32543: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:17.456360 IP msnbot-40-77-167-55.search.msn.com.60358 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 809835716, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:17.456429 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-55.search.msn.com.60358: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:17.766909 IP msnbot-40-77-167-121.search.msn.com.32543 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3259350144, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:17.766994 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32543: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:17.778741 IP 185.224.128.17.56573 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.5555: Flags [S], seq 850502578, win 65535, length 0
+20:23:17.918096 IP msnbot-40-77-167-14.search.msn.com.56412 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3163270357, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:17.918173 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-14.search.msn.com.56412: Flags [R.], seq 0, ack 3163270358, win 0, length 0
+20:23:17.952846 IP msnbot-40-77-167-121.search.msn.com.32544 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 4056820499, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:17.952919 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32544: Flags [R.], seq 0, ack 4056820500, win 0, length 0
+20:23:17.987652 IP msnbot-40-77-167-55.search.msn.com.60358 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 809835716, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:17.987731 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-55.search.msn.com.60358: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:18.446050 IP msnbot-40-77-167-14.search.msn.com.56412 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3163270357, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:18.446138 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-14.search.msn.com.56412: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:18.485767 IP msnbot-40-77-167-121.search.msn.com.32544 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 4056820499, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:18.485832 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-121.search.msn.com.32544: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:18.518968 IP msnbot-40-77-167-55.search.msn.com.60358 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 809835716, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+20:23:18.519036 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.https > msnbot-40-77-167-55.search.msn.com.60358: Flags [R.], seq 0, ack 1, win 0, length 0
+20:23:18.977288 IP msnbot-40-77-167-14.search.msn.com.56412 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 3163270357, win 64240, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
