@@ -1,0 +1,2 @@
+I use realpath() to validate paths and restrict access to safe_directory/
+I use is_dir() to ensure the directory exists before scanning

@@ -1,0 +1,1 @@
+By removing the sensitive information and following best security practices, I eliminate the risk of exposing employee details in the source code while ensuring documentation integrity.

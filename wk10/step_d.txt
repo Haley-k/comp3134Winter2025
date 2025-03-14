@@ -1,0 +1,3 @@
+What I see on the browser (the issue): failed to open directory - no such file or directory
+
+What sensitive information is given by this page: my directory names and path to the file

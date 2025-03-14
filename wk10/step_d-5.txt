@@ -1,0 +1,3 @@
+What I see on the browser (the issue): no issue
+
+What sensitive information is given by this page: not much
