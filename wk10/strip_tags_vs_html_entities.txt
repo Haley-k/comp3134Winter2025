@@ -1,0 +1,4 @@
+strip_tags() -> when you only want to remove HTML but still allow the text content.
+htmlspecialchars() -> for better security, ensuring no script can be executed.
+
+Best practice: In most cases, htmlspecialchars() is the safer approach to prevent XSS attacks while still allowing input visibility. 

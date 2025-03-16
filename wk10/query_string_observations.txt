@@ -1,0 +1,4 @@
+1) When I type a valid English word into the search form on Dictionary.com, the website displays the definition, pronunciation, usage examples, and other relevant information for that word.
+2) It responds with a message "No results found for ewoi" The website suggest possible correct spellings.
+3) Same as 2) answer, it treats the code as a word.
+4) Same as 3)
