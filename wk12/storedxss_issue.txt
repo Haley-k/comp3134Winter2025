@@ -1,0 +1,12 @@
+Issue(s) Identified in storexss.php:
+
+1. Stored XSS Vulnerability:
+   - The content from 'storedxss.txt' is rendered directly to the browser without sanitization.
+   - This allows execution of malicious JavaScript code if an attacker stores a script in the file.
+
+2. Lack of Output Encoding:
+   - No HTML escaping or encoding is applied to the file contents before rendering.
+   - This violates the rule of output encoding for user-generated content.
+
+3. Potential Redirection Attack:
+   - The stored script redirects the user to another PHP file, which could be used to phish or launch further attacks.

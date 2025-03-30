@@ -1,0 +1,15 @@
+Test Results - CSRF Protection with Token
+
+1. Submitting the form from csfr_form.php:
+   - Result: Login works successfully when correct credentials and valid CSRF token are submitted.
+   - Message: "✅ Login successful!"
+
+2. Submitting the form from csfr.html:
+   - Result: Login fails due to missing or invalid CSRF token.
+   - Message: "⚠️ Invalid CSRF token!"
+
+3. Modifying the token value manually:
+   - Result: Login fails with "Invalid CSRF token!" even if username/password are correct.
+
+Conclusion:
+The CSRF token mechanism correctly prevents unauthorized or forged requests from succeeding.
