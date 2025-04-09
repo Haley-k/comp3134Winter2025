@@ -1,0 +1,39 @@
+Scenario 1:
+-----------
+Input: Ben
+
+Observation:
+The form correctly displays the information for the user whose firstname is 'Ben' and who is active (active = 1). This is the expected behavior.
+This query works as intended and returns the relevant result set for the user named Ben, as long as the record exists and active = 1.
+
+Explanation:
+Since the input is a normal string without any special characters, the SQL executes without any syntax error. This is a typical use case.
+
+--------------------------------
+
+Scenario 2:
+-----------
+Input: Ben'-- 
+
+Observation:
+When submitting `Ben'-- ` , the query breaks or returns unexpected results. In many configurations, this input either causes an SQL syntax error or bypasses part of the WHERE clause. 
+
+As a result, the page may:
+- Return all records where `firstname = 'Ben'` regardless of their `active` status, or
+- Cause a syntax error, depending on how the database handles incomplete string quotes.
+
+Explanation:
+This demonstrates a SQL injection vulnerability. Since the query directly inserts user input without sanitization or parameterization, attackers can manipulate the SQL to alter the logic or bypass conditions, which is a serious security flaw.
+
+--------------------------------
+
+Scenario 3:
+-----------
+Input: Ben’ or 1=1
+
+Observation:
+When the value `Ben' or 1=1` is entered into the form, the page displays all users in the `users` table who are active. This behavior is unexpected and dangerous from a security standpoint. 
+Since `1=1` is always true, the condition `(1=1 AND active = 1)` will return all rows where `active = 1`, regardless of the first name. This effectively bypasses the first name check.
+
+Explanation:
+This is another example of a SQL injection vulnerability, where the attacker injects additional SQL logic (`or 1=1`) that changes the structure of the intended query. This can be exploited to dump all records from the table, bypass login mechanisms, or escalate privileges.
